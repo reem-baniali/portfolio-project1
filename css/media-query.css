@@ -1,0 +1,64 @@
+@media (max-width :766px){
+    .home-background{
+        background-image: none ;
+    }
+    
+
+.about  h2,.contacts h2, .skills h2, .services h2, .testimonials h2 {
+
+font-size: 35px;
+
+
+}
+
+
+.typewritter{
+    display: flex;
+    width: 100%;
+}
+
+.about div{
+    animation: none ;
+    font-size: 10px;
+    margin-left: 5%;
+    width:90%;
+
+}
+.about .btn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:70%;
+    padding: 5px;
+}
+.sm-icon-container  {
+    padding-left: 10px;
+    font-size: 10px;
+justify-content: space-evenly;
+
+}
+}
+
+
+@media (max-width :768px) {
+    .about div{
+        animation: none ;
+        font-size: 15px;
+        margin-left: 5%;
+        width:90%;
+    
+    }
+    .about .btn {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left:70%;
+        padding: 5px;
+    }
+
+    .sm-icon-container  {
+        padding-left: 10px;
+        font-size: 10px;
+    justify-content: space-evenly;
+
+    }
+   
+}

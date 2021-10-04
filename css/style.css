@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------------  body style -------------------------------  */
+body{
+    background-color: black ;
+    font-family: 'Raleway', sans-serif;
+}
+.header-col{
+    border-right: 3px solid white;
+}
+
+
+/* =======================  home page style ==================================  */
+
+.home-background{
+    background-image: url("../img/reem-profile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0 auto; 
+}
+.home-background .content{
+ 
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 30px; 
+} 
+.content h2{
+    font-size: 50px;
+}
+
+/*=============== logo style========================= */
+
+.img-container img{
+    max-width:200px;
+ 
+}
+.img-container{
+    padding-top: 40px;
+    overflow: hidden;
+
+}
+
+/* --------------  h1 style -------------------------------  */
+h1{
+    font-weight: 900;
+    padding: 40px ;
+}
+/* --------------  social media container -------------------------------  */
+.sm-icon-container  {
+    padding-left: 20px;
+    font-size: 30px;
+}
+.sm-icon-container ul li  a i:hover{
+    background-color: goldenrod;
+}
+
+/* --------------  nav style -------------------------------  */
+nav{
+    min-height:80vh;
+    background-color:  black;
+    max-width: 30vw;
+    color: whitesmoke;
+  
+}
+.navbar  ul{
+margin: 0;
+padding: 0;
+} 
+
+.navbar  .nav-item li{
+     margin-top: 10px;
+}
+.navbar  .nav-item a{
+    color:rgb(218, 218, 218) ;
+    padding-top : 25px;
+    padding-left:  40px;
+    padding-bottom: 2px;
+    font-size:20px;
+}
+.navbar  .nav-item a:hover{
+    color: goldenrod;
+}
+
+/* --------------  nav Icon style -------------------------------  */
+.navbar  .nav-item a i {
+    font-size: 30px ;
+    margin-right: 15px;
+}
+  
+/* --------------  main image style -------------------------------  */
+
+#main-image-container{
+    width: 95%;
+    height: 100%;
+    margin: 0;
+    margin-right: 0;
+    background-color: bisque;
+}
+#main-image{
+    width: 100%;
+    height: 100%;
+ overflow: hidden;
+
+}
+/* --------------  footer style -------------------------------  */
+ footer {
+
+text-align: center;
+font-size: 15px;
+
+} 
+
+/* ======================= about  page style =================================== */ 
+.about,.contacts,.skills,.services,.resume, .testimonials {
+        background-color:black;
+      
+    }
+
+.about  h2,.contacts h2, .skills h2, .services h2 {
+justify-content: center;
+margin-top: 100px;
+margin-left: 100px;
+margin-bottom: 20px;
+font-size: 55px;
+color:white;
+
+}
+hr{
+    color: white;
+}
+
+.about-image-container{
+    width: 30%; 
+    margin-left: 700px;
+    margin-top: 50px;
+ }
+
+.about-image{
+    width:100%;
+    height: 400px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.typewritter{
+    display: flex;
+    width: 100%;
+}
+
+.about div{
+    display:flex;
+    flex-direction: column;
+    overflow:auto;
+    letter-spacing: 1px;
+    animation: typing 5s steps(313,end);
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 9%;
+    margin-left: 10%;
+    width:70%;
+box-sizing: border-box;
+color:  rgba(0, 0, 0, 0.685);
+}
+@keyframes typing{
+    from{
+width:0%;
+    }
+    to{
+        width:100%;
+    }
+}
+.about .btn {
+    margin-top: 10%;
+    margin-left:75%;
+    padding: 20px;
+}
+.contact-btn{
+    text-decoration: none;
+    color:white;
+}
+.contact-btn:hover{
+    color:goldenrod;
+}
+
+/* ===================Project page style ========================================== */
+.proj-img{
+    width: 274px;
+    height: 272px;
+}
+
+ 
+ /* =======================  services page style =================================== */ 
+ .services h6{
+     padding-left: 40px;
+   color:white;
+     font-size: 30px;
+     margin-top: 5%;
+     margin-bottom: 7%;
+ }
+
+ .card:hover, input:hover, textarea:hover  {
+     background-color:goldenrod;
+ }
+
+ /* =======================  Skills page style =================================== */ 
+ .skills-container h4{
+     font-size: 20px;
+     color: white;
+ }
+ .skills-container span{
+    font-size: 20px;
+    color: white; 
+ }
+.skills-container{
+    width: 80%;
+}  
+i{
+    font-size: 40px;
+}
+.skill-table tr td{
+    width:20%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.288) ;
+    text-align: center;
+    font-size: 10px;
+    vertical-align: middle;
+    
+   
+}
+.skills-container {
+ margin-top: 5%;
+}
+.skills-container-2{
+   display: inline-block;
+}
+
+/* =======================  Testimonials page style =================================== */ 
+.testimonials-container{
+    margin-top: 10%;
+}
+.testimonials h2{
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 55px;
+    color:white;
+}
+
+/* =======================  contacts page style =================================== */ 
+
+
+.contacts .card .btn{
+    margin-left:70%;
+} 
+.skills-container  {
+    width: 80%;
+    font-size:25px;
+    color:  rgba(0, 0, 0, 0.562);
+padding-left: 100px;
+}
+          
+.contact-icon{
+    font-size: 35px;
+}
+
+.submit-btn{
+    margin-left: 85%;
+    margin-top: 5%;
+}
+.contacts span{
+    font-size: 25px;
+    margin-top: 5%;
+}
