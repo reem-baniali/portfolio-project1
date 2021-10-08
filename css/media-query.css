@@ -2,7 +2,7 @@
     .home-background{
         background-image: none ;
     }
-     
+      
 .about  h2,.contacts h2, .skills h2, .services h2, .testimonials h2 {
 font-size: 35px;
 }
@@ -29,6 +29,7 @@ font-size: 35px;
 justify-content: space-evenly;
 }
 }
+
 @media (max-width :768px) {
     .about div{
         animation: none ;
@@ -70,6 +71,18 @@ justify-content: space-evenly;
         font-size:15px;
    
       }
-      
- 
+
+
+
+
 } 
+@media (max-width :668px) {
+    .burger-navbar{
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+      }
+      .vertical-navbar{
+        display: none;
+    }
+}

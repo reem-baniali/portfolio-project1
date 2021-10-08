@@ -86,7 +86,11 @@ padding: 0;
 .navbar  .nav-item a:hover{
     color: goldenrod;
 }
+/* ================buburger-navbar style =========================  */
 
+.burger-navbar{
+  display: none;
+}
 /* --------------  nav Icon style -------------------------------  */
 .navbar  .nav-item a i {
     font-size: 30px ;
